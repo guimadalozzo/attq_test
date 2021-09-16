@@ -15,7 +15,7 @@ class DocumentsTest extends TestCase
     public function valid_user_post_file()
     {
         $uploadFile = new UploadedFile(
-            base_path() . '/storage/app/public/tests/teste.pdf',
+            base_path() . '/resources/files/tests/teste.pdf',
             'teste.pdf',
             'pdf',
             null,
